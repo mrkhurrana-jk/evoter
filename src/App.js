@@ -17,7 +17,7 @@ function App() {
   return (
     <div >
 
-      <Router>
+      <Router basename='/evoter'>
         <Routes>
 
           <Route path="/" element={<Home />} />
