@@ -29,7 +29,7 @@ export default function Voterpage() {
                     Hello Jatin! Welcome Back to evoter.
                 </h1>
 
-                <div className='app__voter-info'>
+                <div className='app__voter-info info'>
                     <div>
                         <p>
                             Name : Jatin Kumar Khurana

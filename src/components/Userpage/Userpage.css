@@ -174,23 +174,37 @@ h3{
 }
 @media screen and (max-width: 1150px) {
 
+    .app__voter-info
+    {
+        font-size: .75rem;
+        flex-direction: column-reverse;
+        width: 100%;
+
+    }
+
+    /* .app__userlayout-info .info
+    {
+        width: 7rem;
+    } */
+
     .app__userlayout
     {
-        width: 85%;
+        width: 80%;
         font-size: 1rem;
     }
 
     .app__userlayout-cards
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .card
     {
-        width: 80%;
+        width: 40%;
         margin: 1.25rem;
     }
 
@@ -199,9 +213,53 @@ h3{
         width: 20%;
         margin-top: 1rem;
     }
+
+    .app__registration_container
+    {
+        flex-direction: column-reverse;
+        /* border: 2px solid red; */
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .app__registration_form
+     {
+    /*    border: 2px solid blue; */
+        /* text-align: center; */
+        /* justify-content: center; */
+        margin: auto;
+        width: 90%;
+    }
+
+    .app__registration_img
+    {
+        /* text-align: center; */
+        padding-top: 2rem;
+        margin: auto;
+    }
+/* 
+    .modal
+    {
+        width: 40rem; 
+    } */
+
+
+    
 }
 
 @media screen and (max-width: 650px) {
+
+    .app__userlayout-navbar
+    {
+        width: 100%;
+    }
+
+    .app__userlayout-navbar_logo img
+    {
+        width: 8rem;
+    }
 
     .app__userlayout
     {
@@ -217,6 +275,11 @@ h3{
     {
         width: 100%;
         margin: .85rem  ;
+    }
+
+    .info p
+    {
+        width: 16rem;
     }
 
 }
@@ -268,9 +331,9 @@ h3{
 /* --------------------------------------MODAL CSS BELOW---------------------------------------------------- */
 .modal {
     font-size: 12px;
-    width: 50rem;
+    width: 51rem;
     height: 18rem;
-    background-color: #cfcece;
+    background-color: #d4d4d4;
   }
   .modal > .header {
     width: 100%;
@@ -286,6 +349,7 @@ h3{
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-size: 1.25rem;
   }
   .modal > .actions {
     margin: auto;
@@ -331,3 +395,20 @@ h3{
   {
     width: 45%;
   }
+
+  @media screen and (max-width: 1150px) {
+    .modal
+  {
+    width: 40rem;
+  }
+
+}
+  @media screen and (max-width: 650px) {
+    .modal
+  {
+    width: 20rem;
+  }
+
+}
+
+

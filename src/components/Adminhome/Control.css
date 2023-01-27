@@ -67,3 +67,37 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 1150px) {
+
+    .actions-cards{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__adminlayout-info{
+        width: 90%;
+        margin: auto;
+    }
+
+    .app__admin-info
+    {
+        font-size: medium;
+        flex-direction: column-reverse;
+    }
+
+    .app__admin-controlpanel
+    {
+        text-align: center;
+    }
+
+    .action-card
+    {
+        width: 90%;
+    }
+
+}
