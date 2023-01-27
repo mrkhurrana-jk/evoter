@@ -1,0 +1,67 @@
+.app__registration
+{
+    /* width: 90%;
+    margin: auto; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.app__registration_container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.app__registration_img
+{
+    width: 40%;
+}
+.app__registration_img img
+{
+    width: 75%;
+}
+
+.app__registration_form
+{
+    width: 40%;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.app__registration_form h2
+{
+    text-align: center;
+    margin: 0;
+}
+
+.app__registration_form form
+{
+    /* margin-top: 8rem; */
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.app__registration_form form input
+{
+    width: 80%;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-size: larger;
+    text-align: center;
+}
+
+.app__registration_form form button
+{
+    margin-top: 3rem;
+    width: 80%;
+
+}
