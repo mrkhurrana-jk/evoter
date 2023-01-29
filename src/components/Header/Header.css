@@ -223,6 +223,12 @@ button
         width: 20rem;
     }
 
+    .app__Header-votingimg
+    {
+        width: 24rem;
+    }
+    
+
 }
 
 

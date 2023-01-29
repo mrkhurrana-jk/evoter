@@ -1,25 +1,44 @@
 import React from 'react';
 import { images } from '../constants';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import ReactDOM from "react-dom";
 import Popup from "reactjs-popup";
 import Content from "../createelec";
 import './Userpage/Userpage.css';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { AiOutlineClose } from 'react-icons/ai';
 
 
 export default function Voterpage() {
+    const [ToggleMenu, setToggleMenu] = React.useState(false);
     return (
         <div className='app__userlayout'>
 
             <nav className='app__userlayout-navbar'>
                 <div className='app__userlayout-navbar_logo'>
                     <img src={images.logo} alt="logo" />
+                    <h1>E-MatDaan</h1>
                 </div>
                 <div className="app__userlayout-options">
-                    <a href='#'> Edit Profile </a>
+                    <Link to="#" > Edit Profile </Link>
                     <div className='app__userlayout-navbar_divider' />
-                    <a href='#' id='logout'> Logout </a>
+                    <Link to="/" id='logout'> Logout </Link>
                 </div>
+
+                <div className='app__Navbar-smallscreen'>
+                <GiHamburgerMenu color='#373532' fontSize={27} onClick={() => { setToggleMenu(true) }} />
+                {
+                    ToggleMenu && (
+                        <div className='app__Navbar-smallscreen-overlay'>
+                            <AiOutlineClose fontSize={27} className='overlay__close' onClick={() => { setToggleMenu(false) }} />
+                            <ul className="app__Navbar-smallscreen-links">
+                                <li> <Link to="#"> Edit Profile </Link> </li>
+                                <li> <Link to="/"> Logout </Link> </li>
+                            </ul>
+                        </div>)
+                }
+
+            </div>
 
             </nav>
 

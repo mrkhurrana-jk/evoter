@@ -98,7 +98,7 @@
 .app__Navbar-smallscreen-links li
 {
     align-items: center;
-    margin: 2.5rem;
+    margin: 2rem;
     font-size: 2rem;
     text-align: center;
     /* font-family: b; */
@@ -116,6 +116,18 @@
     color: rgb(176, 185, 192);
 }
 
+h1> Link
+{
+    text-decoration: none;
+    color: black;
+}
+
+Link:visited
+{
+    text-decoration: none;
+    color: black;
+
+}
 
 @media screen and (max-width: 650px) {
     .app__Navbar-links
@@ -132,14 +144,28 @@
         display: flex;
     }
 
+    .app__Navbar-logo h1
+    {
+        font-size: 1.25rem;
+    }
+
     .app__Navbar-logo img
     {
-        width: 80px;
+        width: 25%;
+        height: 50%;
+        margin: .5rem 1rem 0 2rem;
     }
+
     .app__Navbar-smallscreen
     {
         padding-right: 1rem;
     }
+
+    .app__Navbar-smallscreen-links
+    {
+        padding: 0;
+    }
+
 }
 
 
