@@ -12,6 +12,7 @@ export const Navbar = () => {
 
             <div className='app__Navbar-logo'>
                 <img src={images.logo} alt="logo" />
+                <h1>E-MatDaan</h1>
             </div>
 
 

@@ -7,6 +7,7 @@ import candidate from '../assets/candidate.png'
 import register from '../assets/register.png'
 import voter from '../assets/voter.jpg'
 import verifyvoter from '../assets/verifyvoter.png'
+import VoteIndia from '../assets/VoteIndia.svg'
 
 export default 
 {
@@ -18,5 +19,6 @@ export default
     results,
     register,
     voter,
-    verifyvoter
+    verifyvoter,
+    VoteIndia
 };

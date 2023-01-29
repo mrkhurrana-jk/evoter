@@ -5,7 +5,9 @@
     display: flex;
     justify-content: space-evenly;
     flex: 1;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .app__Header-form
@@ -14,16 +16,30 @@
     flex-direction: column;
     justify-content: center;
     width: 30rem;
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    background-color: #b3f1fe;
+    height: fit-content;
 }
 
-.app__Header-form h1,h2
+.app__Header-form h1
 {
     margin: 0;
+
+}
+
+.app__Header-form form
+{
+    margin-top: 2rem;
 }
 
 h2
 {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .info
@@ -49,11 +65,36 @@ h2
     text-decoration: none;
 }
 
+.app__Header-form p.info
+{
+    margin-left: 1rem;
+}
+
+
+.app__Header-votingimg
+{
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+}
 
 .app__Header-votingimg img
 {
-    width: 35rem;
+    width: 40rem;
+    height: 50%;
+    margin: 1.5rem
 }
+
+.app__Header-votingimg div
+{
+    width: 40rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    /* margin: 0; */
+    
+}
+
 
 button:hover
 {
@@ -66,7 +107,7 @@ button
 {
     height: 2.25rem;
     width: 30rem;
-    background-color: #4d54b6;
+    background-color: #35CD4D;
     color: aliceblue;
 }
 
@@ -87,6 +128,8 @@ button
         justify-content: center;
         align-items: center;
         margin: 1rem auto;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .app__Header-form h1{
@@ -129,6 +172,8 @@ button
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
     }
     
     .app__Header h1
@@ -145,7 +190,12 @@ button
     .app__Header-form .info
     {
         width: 22rem;
-        font-size: 1.15rem;
+        font-size: .95rem;
+    }
+
+    .app__Header-form h1
+    {
+        font-size: 1.1rem;
     }
 
     .app__Header-form
@@ -158,8 +208,12 @@ button
         width: 22rem;
     }
 
-}
+    .app__Header-votingimg  div
+    {
+        width: 25rem;
+    }
 
+}
 
 
 
