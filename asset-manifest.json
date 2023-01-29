@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/evoter/static/css/main.d38b9d68.css",
-    "main.js": "/evoter/static/js/main.b5502042.js",
+    "main.css": "/evoter/static/css/main.ef3912ae.css",
+    "main.js": "/evoter/static/js/main.23549aea.js",
     "static/js/787.7ed34abe.chunk.js": "/evoter/static/js/787.7ed34abe.chunk.js",
+    "static/media/VoteIndia.svg": "/evoter/static/media/VoteIndia.ce798dec103a7f95e1f8ec44bcac8116.svg",
     "static/media/candidate.png": "/evoter/static/media/candidate.70f2354b5891725a6f31.png",
     "static/media/results.png": "/evoter/static/media/results.64f03ebd2439724d41b7.png",
     "static/media/elections.png": "/evoter/static/media/elections.7de092c857e28b328754.png",
@@ -11,14 +12,13 @@
     "static/media/adminimg.png": "/evoter/static/media/adminimg.d81649af3f1edffd5b0a.png",
     "static/media/voting.png": "/evoter/static/media/voting.eb8fa04c10551818229d.png",
     "static/media/voter.jpg": "/evoter/static/media/voter.d85f94fad0d5c70aca83.jpg",
-    "static/media/Logo.png": "/evoter/static/media/Logo.76a576c67cd8bcec37ed.png",
     "index.html": "/evoter/index.html",
-    "main.d38b9d68.css.map": "/evoter/static/css/main.d38b9d68.css.map",
-    "main.b5502042.js.map": "/evoter/static/js/main.b5502042.js.map",
+    "main.ef3912ae.css.map": "/evoter/static/css/main.ef3912ae.css.map",
+    "main.23549aea.js.map": "/evoter/static/js/main.23549aea.js.map",
     "787.7ed34abe.chunk.js.map": "/evoter/static/js/787.7ed34abe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d38b9d68.css",
-    "static/js/main.b5502042.js"
+    "static/css/main.ef3912ae.css",
+    "static/js/main.23549aea.js"
   ]
 }
