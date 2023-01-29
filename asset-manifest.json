@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/evoter/static/css/main.ef3912ae.css",
+    "main.css": "/evoter/static/css/main.b885ad3f.css",
     "main.js": "/evoter/static/js/main.23549aea.js",
     "static/js/787.7ed34abe.chunk.js": "/evoter/static/js/787.7ed34abe.chunk.js",
     "static/media/VoteIndia.svg": "/evoter/static/media/VoteIndia.ce798dec103a7f95e1f8ec44bcac8116.svg",
@@ -13,12 +13,12 @@
     "static/media/voting.png": "/evoter/static/media/voting.eb8fa04c10551818229d.png",
     "static/media/voter.jpg": "/evoter/static/media/voter.d85f94fad0d5c70aca83.jpg",
     "index.html": "/evoter/index.html",
-    "main.ef3912ae.css.map": "/evoter/static/css/main.ef3912ae.css.map",
+    "main.b885ad3f.css.map": "/evoter/static/css/main.b885ad3f.css.map",
     "main.23549aea.js.map": "/evoter/static/js/main.23549aea.js.map",
     "787.7ed34abe.chunk.js.map": "/evoter/static/js/787.7ed34abe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef3912ae.css",
+    "static/css/main.b885ad3f.css",
     "static/js/main.23549aea.js"
   ]
 }
