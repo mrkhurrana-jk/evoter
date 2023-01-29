@@ -189,7 +189,7 @@ button
 
     .app__Header-form .info
     {
-        width: 22rem;
+        width: 16rem;
         font-size: .95rem;
     }
 
@@ -198,9 +198,19 @@ button
         font-size: 1.1rem;
     }
 
+    .app__Header-form h2,h3
+    {
+        font-size: large;
+    }
+
+    .app__Header-form form
+    {
+        margin-top: 0.5rem;
+    }
+
     .app__Header-form
     {
-        width: 22rem;
+        width: 18rem;
     }
 
     .app__Header-votingimg img
@@ -210,7 +220,7 @@ button
 
     .app__Header-votingimg  div
     {
-        width: 25rem;
+        width: 20rem;
     }
 
 }
