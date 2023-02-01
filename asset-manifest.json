@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/evoter/static/css/main.48128977.css",
-    "main.js": "/evoter/static/js/main.36edde21.js",
+    "main.css": "/evoter/static/css/main.7f40c093.css",
+    "main.js": "/evoter/static/js/main.f3fe038e.js",
     "static/js/787.7ed34abe.chunk.js": "/evoter/static/js/787.7ed34abe.chunk.js",
     "static/media/VoteIndia.svg": "/evoter/static/media/VoteIndia.ce798dec103a7f95e1f8ec44bcac8116.svg",
     "static/media/candidate.png": "/evoter/static/media/candidate.70f2354b5891725a6f31.png",
@@ -13,12 +13,12 @@
     "static/media/voting.png": "/evoter/static/media/voting.eb8fa04c10551818229d.png",
     "static/media/voter.jpg": "/evoter/static/media/voter.d85f94fad0d5c70aca83.jpg",
     "index.html": "/evoter/index.html",
-    "main.48128977.css.map": "/evoter/static/css/main.48128977.css.map",
-    "main.36edde21.js.map": "/evoter/static/js/main.36edde21.js.map",
+    "main.7f40c093.css.map": "/evoter/static/css/main.7f40c093.css.map",
+    "main.f3fe038e.js.map": "/evoter/static/js/main.f3fe038e.js.map",
     "787.7ed34abe.chunk.js.map": "/evoter/static/js/787.7ed34abe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48128977.css",
-    "static/js/main.36edde21.js"
+    "static/css/main.7f40c093.css",
+    "static/js/main.f3fe038e.js"
   ]
 }
