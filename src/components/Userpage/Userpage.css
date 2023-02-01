@@ -94,12 +94,13 @@
 
 .bg_card
 {
-    background-color: #9298f5;
+    background-color: #8FDEEF;
 }
 
 .bg_card2
 {
-    background-color: rgb(221, 207, 207);
+    /* background-color: rgb(221, 207, 207); */
+    background-color: #8FDEEF;
 }
 
   .container
@@ -474,6 +475,18 @@ h3{
     width: 45%;
   }
 
+  .modal .entertovote
+  {
+    margin: 0 2rem;
+    width:10rem;
+  }
+
+  .candidate
+  {
+    justify-content: center;
+    text-align: center;
+  }
+
   @media screen and (max-width: 1150px) {
     .modal
   {
@@ -485,6 +498,11 @@ h3{
     .modal
   {
     width: 20rem;
+  }
+
+  .candidate ::placeholder
+  {
+    font-size: 1rem;
   }
 
 }

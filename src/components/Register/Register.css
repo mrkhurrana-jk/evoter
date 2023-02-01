@@ -65,3 +65,9 @@
     width: 80%;
 
 }
+
+::placeholder
+{
+   color: rgb(190, 188, 188);
+   font-size: .25rem;
+}

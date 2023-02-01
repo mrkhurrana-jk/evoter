@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 // import ReactDOM from "react-dom";
 import Popup from "reactjs-popup";
 import Content from "../createelec";
+import Content1 from "../Modal";
+import Content2 from "../Verify";
+
 import './Userpage/Userpage.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -108,7 +111,7 @@ export default function Voterpage() {
                         </div>
 
                     }>
-                        {close => <Content close={close} />}
+                        {close => <Content1 close={close} />}
                     </Popup>
                 </div>
                 <div className="Modal card bg_card">
@@ -121,7 +124,7 @@ export default function Voterpage() {
                             </div>
                         </div>
                     }>
-                        {close => <Content close={close} />}
+                        {close => <Content2 close={close} />}
                     </Popup>
                 </div>
 

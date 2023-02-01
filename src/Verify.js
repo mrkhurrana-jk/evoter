@@ -6,9 +6,9 @@ export default ({ close }) => (
       &times;
     </a>
     <div className="header"> Enter the required details </div>
-    <div className="content">
+    <div className="content2">
       {" "}
-      <form>
+      <form className="candidate">
          <input type="text" placeholder='Enter the Election code' /> 
          <button> submit </button>
       </form>

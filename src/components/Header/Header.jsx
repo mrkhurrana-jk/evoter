@@ -24,6 +24,11 @@ export const Header = () => {
                 <form action="#" method="post" className='form-style'>
                     <input type="text" placeholder='Voter ID' />
                     <input type="password" placeholder='Password' />
+
+                    <div className='OTP'>
+                        <input type="number" pattern='\d{6}' placeholder='Enter OTP'/>
+                        <button>Get OTP</button>
+                    </div>
                     <p>
 
                         <Link to="/voter"> <button>  Login </button> </Link>

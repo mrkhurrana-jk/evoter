@@ -11,16 +11,20 @@ import Admin from "./components/Admin";
 import Register from './components/Register/Register';
 import Voterpage from './components/Voterpage';
 import Control from './components/Adminhome/Control'
+import { AuthProvider } from 'react-auth-kit'
 
 
 function App() {
   return (
-    
+
     <div >
 
+      <AuthProvider authType={'cookie'}
+        authName={'_auth'}
+        cookieDomain={window.location.hostname}
+        cookieSecure={window.location.protocol === "https:"}>
       <Router basename='/evoter'>
         <Routes>
-
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Admin" element={<Admin />} />
@@ -28,9 +32,9 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/controlcenter" element={<Control />} />
           <Route path="/voter" element={<Voterpage />} />
-
         </Routes>
       </Router>
+      </AuthProvider>
     </div>
   );
 }

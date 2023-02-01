@@ -30,10 +30,10 @@
 
 }
 
-.app__Header-form form
+/* .app__Header-form form
 {
     margin-top: 2rem;
-}
+} */
 
 h2
 {
@@ -117,6 +117,21 @@ button
     font-size: 1.1rem;
 }
 
+.OTP
+{
+    display: flex;
+    justify-content: center;
+}
+
+.OTP button
+{
+    width: 25%;
+    margin-left: 1rem;
+}
+
+
+
+
 
 @media screen and (max-width: 1150px)
 {
@@ -157,6 +172,22 @@ button
     .app__Header-votingimg img
     {
         width: 34rem;
+    }
+
+    .OTP
+    {
+        width: 60%;
+    }
+
+    .OTP input
+    {
+        width: 50%;
+    }
+
+    .OTP button
+    {
+        width: 25%;
+        font-size: medium;
     }
 }
 
@@ -226,6 +257,22 @@ button
     .app__Header-votingimg
     {
         width: 24rem;
+    }
+
+    .OTP
+    {
+        width: 80%;
+    }
+
+    .OTP input
+    {
+        width: 50%;
+    }
+
+    .OTP button
+    {
+        width: 4.5rem;
+        font-size: medium;
     }
     
 
